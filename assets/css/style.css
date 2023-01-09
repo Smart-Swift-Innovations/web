@@ -674,7 +674,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: #ffc451;   /*icon background*/
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -684,7 +684,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #151515;
+  color: #151515;        /*icon color*/
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -696,7 +696,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: #151515;              /*text below icon*/
   transition: ease-in-out 0.3s;
 }
 

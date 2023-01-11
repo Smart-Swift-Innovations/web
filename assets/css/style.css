@@ -637,8 +637,8 @@ section {
 }
 
 .menu .nav-link.active {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: #ffc451;
+  border-color: #151515;
 }
 
 .menu .tab-content .tab-header {
@@ -687,6 +687,43 @@ section {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# About duplicate for menu
+--------------------------------------------------------------*/
+.menu .content h3 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu .content h5 {
+  font-weight: 500;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.menu .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #ffc451;
+}
+
+.menu .content p:last-child {
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------

@@ -123,9 +123,74 @@
               <li><i class="ri-check-double-line"></i> Idle time</li>
               <li><i class="ri-check-double-line"></i> Route Report  </li>
               <li><i class="ri-check-double-line"></i> Events (alerts) Report  </li>
+                  <span id="points" style="display: inline"></span>
+                <span id="moreText" style="display: none">
               <li><i class="ri-check-double-line"></i> Trips Reports </li>
               <li><i class="ri-check-double-line"></i> Stoppage Report</li>
              </ul>
+                
+                 <!--======================Show More button===========-->
+
+                <button onclick="toggleText()" id="textButton">
+                  Show More
+                </button>
+
+                <script>
+                  function toggleText() {
+
+                    // Get all the elements from the page
+                    var points =
+                      document.getElementById("points");
+
+                    var showMoreText =
+                      document.getElementById("moreText");
+
+                    var buttonText =
+                      document.getElementById("textButton");
+
+                    // If the display property of the dots 
+                    // to be displayed is already set to 
+                    // 'none' (that is hidden) then this 
+                    // section of code triggers
+                    if (points.style.display === "none") {
+
+                      // Hide the text between the span
+                      // elements
+                      showMoreText.style.display = "none";
+
+                      // Show the dots after the text
+                      points.style.display = "inline";
+
+                      // Change the text on button to 
+                      // 'Show More'
+                      buttonText.innerHTML = "Show More";
+                    }
+
+                    // If the hidden portion is revealed,
+                    // we will change it back to be hidden
+                    else {
+
+                      // Show the text between the
+                      // span elements
+                      showMoreText.style.display = "inline";
+
+                      // Hide the dots after the text
+                      points.style.display = "none";
+
+                      // Change the text on button
+                      // to 'Show Less'
+                      buttonText.innerHTML = "Show Less";
+                    }
+                  }
+                </script>
+                <!--======================Show More Button End===========-->
+                
+                
+                 <!--======================Download Brochure button===========--> 
+                  <a href="assets/brochures/vehicle-tracker.pdf" download='SSI-Track Now!' class="download-btn">Download Brochure
+                  </a>
+             
+                  <!--======================Download Brochure button ends==========-->
 
 
               </div>
@@ -168,7 +233,7 @@
                   A GPS based vehicle tracking solution that provides real time monitoring of vehicle movements. You can locate your vehicles in real time, view a complete log on the movements of the vehicles.
                 </p>
                 <ul>
-              <li><i class="ri-checkbox-blank-circle-fill"></i> Device Benifits</li>        
+                  <li><i class="ri-checkbox-blank-circle-fill"></i><b> Device Benifits</b></li>        
               <li><i class="ri-check-double-line"></i> Complete control over fleet operations </li>
               <li><i class="ri-check-double-line"></i> Accurate fuel level and location information </li>
               <li><i class="ri-check-double-line"></i> Proper routing and navigation</li>
@@ -179,6 +244,8 @@
               <li><i class="ri-check-double-line"></i> Time fence violation  </li>
               <li><i class="ri-check-double-line"></i> Idle time</li>
               <li><i class="ri-check-double-line"></i> Route Report  </li>
+                  <span id="points" style="display: inline"></span>
+                <span id="moreText" style="display: none">
               <li><i class="ri-check-double-line"></i> Events (alerts) Report  </li>
               <li><i class="ri-check-double-line"></i> Trips Reports </li>
               <li><i class="ri-check-double-line"></i> Stoppage Report</li>
@@ -186,6 +253,65 @@
                     <li><i class="ri-check-double-line"></i> Panic Button</li>
                     <li><i class="ri-check-double-line"></i> Ignition Switch</li>
              </ul>
+                
+                 <!--======================Show More button===========-->
+
+                <button onclick="toggleText()" id="textButton">
+                  Show More
+                </button>
+
+                <script>
+                  function toggleText() {
+
+                    // Get all the elements from the page
+                    var points =
+                      document.getElementById("points");
+
+                    var showMoreText =
+                      document.getElementById("moreText");
+
+                    var buttonText =
+                      document.getElementById("textButton");
+
+                    // If the display property of the dots 
+                    // to be displayed is already set to 
+                    // 'none' (that is hidden) then this 
+                    // section of code triggers
+                    if (points.style.display === "none") {
+
+                      // Hide the text between the span
+                      // elements
+                      showMoreText.style.display = "none";
+
+                      // Show the dots after the text
+                      points.style.display = "inline";
+
+                      // Change the text on button to 
+                      // 'Show More'
+                      buttonText.innerHTML = "Show More";
+                    }
+
+                    // If the hidden portion is revealed,
+                    // we will change it back to be hidden
+                    else {
+
+                      // Show the text between the
+                      // span elements
+                      showMoreText.style.display = "inline";
+
+                      // Hide the dots after the text
+                      points.style.display = "none";
+
+                      // Change the text on button
+                      // to 'Show Less'
+                      buttonText.innerHTML = "Show Less";
+                    }
+                  }
+                </script>
+                <!--======================Show More Button End===========-->
+                
+                
+                
                  <!--======================Download Brochure button===========--> 
                   <a href="assets/brochures/vehicle-tracker.pdf" download='SSI-Track Now!' class="download-btn">Download Brochure
                   </a>
@@ -234,7 +360,7 @@
                   A GPS based vehicle tracking solution that provides real time monitoring of vehicle movements. You can locate your vehicles in real time, view a complete log on the movements of the vehicles.
                 </p>
                 <ul>
-              <li><i class="ri-checkbox-blank-circle-fill"></i> Device Benifits</li>        
+                  <li><i class="ri-checkbox-blank-circle-fill"></i><b> Device Benifits</b></li>        
               <li><i class="ri-check-double-line"></i> Complete control over fleet operations </li>
               <li><i class="ri-check-double-line"></i> Accurate fuel level and location information </li>
               <li><i class="ri-check-double-line"></i> Proper routing and navigation</li>
@@ -245,6 +371,8 @@
               <li><i class="ri-check-double-line"></i> Time fence violation  </li>
               <li><i class="ri-check-double-line"></i> Idle time</li>
               <li><i class="ri-check-double-line"></i> Route Report  </li>
+                  <span id="points" style="display: inline"></span>
+                <span id="moreText" style="display: none">
               <li><i class="ri-check-double-line"></i> Events (alerts) Report  </li>
               <li><i class="ri-check-double-line"></i> Trips Reports </li>
               <li><i class="ri-check-double-line"></i> Stoppage Report</li>
@@ -253,6 +381,69 @@
                     <li><i class="ri-check-double-line"></i> Ignition Switch</li>
                     <li><i class="ri-check-double-line"></i> AIS</li>
              </ul>
+                
+                 <!--======================Show More button===========-->
+
+                <button onclick="toggleText()" id="textButton">
+                  Show More
+                </button>
+
+                <script>
+                  function toggleText() {
+
+                    // Get all the elements from the page
+                    var points =
+                      document.getElementById("points");
+
+                    var showMoreText =
+                      document.getElementById("moreText");
+
+                    var buttonText =
+                      document.getElementById("textButton");
+
+                    // If the display property of the dots 
+                    // to be displayed is already set to 
+                    // 'none' (that is hidden) then this 
+                    // section of code triggers
+                    if (points.style.display === "none") {
+
+                      // Hide the text between the span
+                      // elements
+                      showMoreText.style.display = "none";
+
+                      // Show the dots after the text
+                      points.style.display = "inline";
+
+                      // Change the text on button to 
+                      // 'Show More'
+                      buttonText.innerHTML = "Show More";
+                    }
+
+                    // If the hidden portion is revealed,
+                    // we will change it back to be hidden
+                    else {
+
+                      // Show the text between the
+                      // span elements
+                      showMoreText.style.display = "inline";
+
+                      // Hide the dots after the text
+                      points.style.display = "none";
+
+                      // Change the text on button
+                      // to 'Show Less'
+                      buttonText.innerHTML = "Show Less";
+                    }
+                  }
+                </script>
+                <!--======================Show More Button End===========-->
+                
+                
+                <!--======================Download Brochure button===========--> 
+                  <a href="assets/brochures/vehicle-tracker.pdf" download='SSI-Track Now!' class="download-btn">Download Brochure
+                  </a>
+             
+                  <!--======================Download Brochure button ends==========-->
 
 
               </div>
